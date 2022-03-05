@@ -14,10 +14,10 @@
     <nav class="navbar">
         <ul>
             <li> <a href="#home">Home</a></li>
-            <li><a href="about.html"> About me </a></li>
-            <li>Journey</li>
-            <li>Portfolio</li>
-            <li> <a href="#contactMe">Contact me</a></li>
+            <li><a href="#aboutMe"> About me </a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact-section">Contact me</a></li>
         </ul>
     </nav>
 
@@ -27,21 +27,16 @@
         <div class="header">
 
             <h1>Welcome to my coding adventure!</h1>
-
-            <div class="progress">
-                <div class="progress_fill"></div>
-                <span class="progress_text">50%</span>
-            </div>
-
+        
             <br>
             <br>
 
             <!-- insert gif progress bar OR automate a progress bar relative to the objective -->
-            <button>Follow My journey</button>
+            <button>Follow My journey OR Encourage me</button>
         </div>
     </div>
     <!-- Journey section -->
-    <div class="journey">
+    <div id="journey">
         <div id="topExplainer">
             <h2>Here is my journey toward Web Development</h2>
 
@@ -70,20 +65,71 @@
 
     </div>
 
+    <!-- About me section -->
+
+    <div id="aboutMe"> 
+        <h1>HEY  👋 <!-- insert hand moving smiley --> </h2>
+        <h3>Nice to meet you,</h3>
+
+        <ul>
+            <li>
+                I’m Marie-Lyse, and I'm based in Madrid since two years. I left Paris and its grey winter for the all-year-long sun (minus this day, it's raining…) and smile of Spain. This is the third country I have moved to. Here are some hints of other countries I’ve lived into :
+                <!-- -> insert kangourou, feuille d’érable-->
+
+            </li>
+            <li>
+                I'm currently transitioning into a new career (as this website is all about) and hope to become a Web Developer. I've always been curious and switched paths many times - from psychology through publishing to marketing; it's time for me to enter the Tech industry.
+
+            </li>
+        
+        </ul>
+
+        <h3> Why so?</h3>
+        <p> I knew you were gonna ask… here is a non-exhaustive list of the reasons that motivated my choice :</p>
+        <ol>
+            <li>
+                My last job made me unhappy - and let's be honest, life is too short to work for something you hate  <!--INSERT QUOTE HERE MAY BE - as my old pal said «  »-->
+            </li>
+            <li>
+                I wanted to contribute to the world of tomorrow instead of analyzing the world of yesterday (I was doing market research beforehand)
+            </li>
+            <li>
+                The more I learn about Web development, the more I like it! I've missed this feeling of excitement these last years, and seriously, it's good to be back
+            </li>
+            <li>
+                I've finally found a creative way to express myself that doesn't require being able to paint/draw in any way - I'm terrible at those things!
+            </li>
+        </ol>
+
+    <p>This is me by the way, being happy with my choices</p>
+    <img src="" alt="This is me">
+    </div>
+
+
     <!-- Portfolio section -->
-    <div class="portfolio">
+    <div id="portfolio">
+
+        <h2>Unfortunately I’m still working on that part but as soon as I’ll move on my <a href="#journey">journey</a> this page will evolve. in the meantime here is a dog, its only purpose is to make your day better
+
+            <insert dog meme>
+
+        </h2>
+
+
 
     </div>
-    
-</body>
-<tfoot>
-    <div class="contact-section">
+
+    <!-- contact section -->
+
+    <div id="contact-section">
         <ul>
             <li><h1 class="bold" id="contact">Contact me here</h1></li>
             <li><a href="https://www.linkedin.com/in/marie-lyse-charriere/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNlncMjHpR7PDz9EXNj-nktVaRpP_8B6oQ-Q&usqp=CAU" alt="Lindedin" height="50px" width="50px"></a></li>
-            <li><a href="https://www.instagram.com/mlysec/" target="_blank"><img src="data:image/png;base64,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" alt="Instagram" height="50px" width="50px"></a></li>
+            <li><a href="https://www.instagram.com/mlysec/" target="_blank"><img src="" alt="Instagram" height="50px" width="50px"></a></li>
             <li>TEL +336 37 45 13 49</li>
         </ul>
     </div>
-</tfoot>
+
+</body>
+
 </html>
