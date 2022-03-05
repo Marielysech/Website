@@ -1,17 +1,34 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     border: 0;
     font-size: 100;
-    font: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     vertical-align: baseline;
     box-sizing: border-box;
+    color: beige;
 }
 
 
 h1 {
-    color: black;
+    color: rgb(1, 0, 88);
+    background-color: #809BCE80;
+    width: 600px;
+    display: ;
 }
+
+blockquote {
+
+}
+
+p {
+
+}
+
+
 
 /* navbar*/
 
@@ -19,7 +36,7 @@ h1 {
     position: fixed;
     width: 100%;
     top: 0; 
-    background-color:rgba(103, 100, 255, 0.4);
+    background-color:rgba(103, 100, 255);
     
 }
 
@@ -31,13 +48,19 @@ h1 {
 .navbar li {
     display: inline-block;
     position: relative;
-    padding: 0px 20px;
+    padding: 20px 20px;
    
 }
 
-.body {
-    margin-top: 50px;
-    /*background-image: url('/Users/marielych/Documents/Web Development/AllWomen.tech/projects/bootcamp_pre_work/day1/ressources/images/img6.jpg'); */
+a:hover {
+    font-size: 2rem;
+    color: red;
+    
+}
+
+body {
+    margin-top: 70px;
+    background-image: url('/Users/marielych/Documents/Web Development/AllWomen.tech/projects/bootcamp_pre_work/day1/ressources/images/img6.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,6 +71,38 @@ h1 {
     height: auto;
 }
 
+/* Home section */
+
+#home {
+    text-align: center;
+}
+
+  /* styling of the progress bar*/
+.progress {
+    position: relative;
+    width: 210px ;
+    height: 30px;
+    background-color: rgb(136, 172, 136) ;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.progress_fill {
+    width: 1%;
+    height: 100%;
+    background-color: rgb(75, 45, 62);
+    transition: all 0.2s;
+}
+
+.progress_text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px 'Quicksand', sans-serif ;
+    color: white;
+}
 
 /* contact section */
 
