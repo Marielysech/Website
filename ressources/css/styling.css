@@ -1,8 +1,144 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0px solid red;
+} */
+
+/* doesn't work 
+:root {
+    --main-accent-color: rgba(103, 100, 255);
+    --main-light-color: #fae5f2ff;
+    --light-progress-bar: #fcdfdaff;
+    --darker-progress-bar: #ef886cff;
+    --blue-accent-strong: #414ab1ff;
+    --shadow-blue:  #1d1c3f;
+}*/
+
+
+html {
+    box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+} 
+
+
+/*navBar*/
+
+
+
+.navbar {
+    position: fixed;
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+    top: 0; 
+    background-color: rgba(103, 100, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: right;
+    box-shadow: 0px 0 3px 6px #1d1c3f ;
+   
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-size: bold;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    margin: 0.5rem 0.3rem;
+}
+
+.navbar ul{
+    padding-right: 1rem;
+}
+
+nav li:hover {
+    background-color: white;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    box-shadow: 0px 3px 1px #1d1c3f;
+}
+
+nav a:hover{
+    color: black;
+}
+/*regulate apparition time of hover */
+
+/*Header*/
+
+header {
+    background-image: url(../images/img6.jpg);
+    padding: 10rem 0 3rem 0;
+    background-size: cover;
+}
+
+.welcomeSection {
+ padding: 0rem 0 2rem 0;
+ text-align: center;
+ color: white;
+}
+
+.welcomeSection h1 {
+    font-size: 300%;
+    margin: 1rem 0;
+}
+
+.welcomeSection p {
+    font-size: 150%;
+    padding-bottom: 2rem;
+}
+
+
+.welcomeSection button {
+    background-color: white;
+    color: #1d1c3f ;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    margin: 0.2rem auto;
+    font-size: 10px;   
+    cursor: pointer;
+    box-shadow: 0 0 #efa424;
+    top: 6px;
+
+} 
+
+.welcomeSection button:hover {
+    box-shadow: 2px 5px #efa424;
+    margin: 1rem 1rem 0 0;
+}
+/*correct the fact that all section is moving*/
+
+
+/*Main*/
+
+.myJourney {
+    background-color: #D1DCFB;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: -1rem auto;}
+
+.alignLeft {
+    display: block;
+    text-align: right;
+    padding: 2rem 0;
+}
+/*
 body {
     border: 0;
     font-size: 100;
@@ -34,38 +170,15 @@ footer {
     color: rgb(24, 20, 53);
     padding-bottom: 15px;
     margin: 0 auto;
-}
+}*/
 
 
 
 /* navbar*/
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    top: 0; 
-    background-color:rgba(103, 100, 255);
-    
-}
 
-.navbar a {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar li {
-    display: inline-block;
-    position: relative;
-    padding: 20px 20px;
-   
-}
-
-a:hover {
-    font-size: 2rem;
-    color: red;
-    
-}
-
+/* previous code*/ 
+/*
 body {
     margin-top: 70px;
     background-image: url('/Users/marielych/Documents/Web Development/AllWomen.tech/projects/bootcamp_pre_work/day1/ressources/images/img6.jpg'); 
@@ -77,16 +190,17 @@ body {
 #myPicture {
     width: 250px;
     height: auto;
-}
+} */
 
 /* Home section */
 
+/*
 #home {
     text-align: center;
-}
+} */
 
   /* styling of the progress bar*/
-.progress {
+/* .progress {
     position: relative;
     width: 210px ;
     height: 30px;
@@ -110,11 +224,11 @@ body {
     transform: translateY(-50%);
     font: bold 14px 'Quicksand', sans-serif ;
     color: white;
-}
+} */
 
 /* contact section */
 
-#contact-section {
+/* #contact-section {
     background-color: #809BCE;
     color: white;
     margin: 0;
@@ -130,4 +244,4 @@ body {
     padding: 20px 50px;
     align-items: center;
 
-}
+} */
